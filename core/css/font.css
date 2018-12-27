@@ -1,0 +1,19 @@
+@font-face{
+	font-family: SVN-Book Antiqua;
+	src: url(../font/SVN-Book Antiqua bold italic.ttf);
+	font-weight: bold italic;
+}
+@font-face{
+	font-family: SVN-Book Antiqua bold;
+	src: url(../font/SVN-Book Antiqua bold.ttf);
+	font-weight: bold;
+}
+@font-face{
+	font-family: SVN-Book Antiqua italic;
+	src: url(../font/SVN-Book Antiqua italic.ttf);
+	font-weight: italic;
+}
+@font-face{
+	font-family: SVN-Book Antiqua;
+	src: url(../font/SVN-Book Antiqua.ttf);
+}

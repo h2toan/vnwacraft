@@ -1,0 +1,339 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 610px) {
+.container.p-0 .leaf-border {
+	border-width: 17.5px;
+}
+.container.p-0 .leaf-corner {
+	margin: -17.5px;
+	border-width: 45px;
+}
+.news-section {
+	margin-top: -20px;
+	margin-right: -20px;
+	margin-left: -20px;
+	margin-bottom: -20px;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+}
+body {
+	background-image: url(../img/FRBX8SRMGV4R1541005873904.jpg);
+	background-size: contain;
+	background-repeat: repeat;
+}
+html body {
+	max-width: 100%;
+	overflow-x: hidden;	
+}
+img {
+	object-fit: cover;
+}
+
+.head-bg {
+	background-position: center bottom;
+	background-image: url(../img/JSI85TCWHOYP1541005872566.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: static;
+	padding-bottom: 500px;
+}
+.container.head-bg {
+	max-width: 100%;
+}
+.featured-post-section   {
+}
+.featured-post-thumb img  {
+	height: 100%;
+	width: 100%;
+}
+.leaf-border {
+	border: 35px solid transparent;
+	border-image: url(../img/border.gif) 70 repeat;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-clip: padding-box;
+}
+.featured-post-2-thumb {
+	height: 100px;
+
+}
+.featured-post-2-thumb img {
+	width: 100%;
+	height: 100%;
+}
+.leaf-corner   {
+	margin-top: -35px;
+	margin-right: -35px;
+	margin-left: -35px;
+	margin-bottom: -35px;
+	border: 90px solid;
+	border-image: url(../img/corner.gif) 180 repeat;
+}
+.nav-logo   {
+	background-image: url(../img/warcraft-3-reign-of-chaos.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	min-height: 70px;
+	background-size: contain;
+	background-position: 0% center;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+p {
+	color: rgba(255,255,255,1.00);
+}
+div .bg-drop-down   {
+	background-color: rgba(253,253,253,0.65);
+}
+
+.divider {
+	background-image: url(../img/BP7IWL5GN6QZ1541005875802.png);
+	background-size: contain;
+	padding-top: 15px;
+}
+div {
+	font-family: 'SVN-Book Antiqua', serif;
+}
+body a   {
+	color: rgba(255,255,255,1.00);
+}
+body a:hover {
+	color: rgba(255,158,0,1.00);
+	text-decoration: none;
+}
+.news-col-section ul  {
+	padding-left: 0px;
+	text-align: left;
+	list-style-type: none;
+}
+.news-col-section ul li::before  {
+	content: "";
+	display: inline-block;
+	background: url(../img/D69AZ9CNT14I1541005853352.png) no-repeat top center;
+	background-size: contain;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-left: -25px;
+	margin-top: 3px;
+}
+.news-col-section li  {
+	padding-bottom: 5px;
+	position: relative;
+}
+.featured-post-headline h2   {
+	font-size: 20px;
+	margin-top: 15px;
+	color: rgba(255,255,255,1.00);
+	text-transform: uppercase;
+}
+.featured-post-2-headline h3 {
+	color: rgba(255,255,255,1.00);
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.featured-post-des {
+	font-size: 16px;
+	font-style: italic;
+}
+nav a {
+	font-family: 'Spectral SC', serif;
+}
+.top-left-banner {
+	margin-bottom: 15px;
+}
+.featured-post-thumb {
+	height: 250px;
+
+}
+.bot-left-banner {
+	height: 350px;
+
+}
+.bot-left-banner img {
+	width: 100%;
+	height: 100%;
+}
+.featured-post-3-thumb img {
+	width: 100%;
+	height: 100%;
+}
+.featured-post-3-headline {
+	text-transform: uppercase;
+	color: rgba(255,255,255,1.00);
+}
+.news-divider {
+	background-image: url(../img/IW9HFSD9VO2K1541005875846.png);
+	background-size: 59% auto;
+	padding-top: 70px;
+	background-repeat: no-repeat;
+	background-position: 50% 58%;
+}
+
+
+@media (max-width: 990px){
+.featured-post-section-2 {
+	display: inline-flex;
+	margin-bottom: 15px;
+}
+.featured-post-2-thumb {
+	width: 200px;
+
+
+}
+.featured-post-2-headline {
+	margin-left: 15px;
+}
+.bot-left-banner {
+	display: none;
+}
+.news-col-section  {
+	padding-left: 20px;
+
+}
+.navbar-brand.nav-logo {
+	max-width: 75px;
+
+
+
+}
+.form-inline.my-2.my-md-2 {
+	width: 200px;
+	height: 30px;
+}
+}
+.gallery-item {
+}
+.gallery {
+}
+@media (min-width: 768px){
+.col.p-1.gallery-item a img {
+	height: 230px;
+}
+
+}
+.video-youtube {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+  .video-youtube:before {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "\f144";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 100px;
+    color: #fff;
+    opacity: .8;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  }
+  .video-youtube:hover:before {
+    color: #eee;
+  }
+.video-youtube-side {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+  .video-youtube-side:before {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "\f144";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 50px;
+    color: #fff;
+    opacity: .8;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  }
+  .video-youtube-side:hover:before {
+    color: #eee;
+  }
+.col-md-6.side-video {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+
+}
+.footer {
+	text-align: center;
+	font-size: xx-small;
+}
+.logo-footer {
+	background-image: url(../img/warcraft-3-reign-of-chaos.png);
+	background-position: center 0%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
