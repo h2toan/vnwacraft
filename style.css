@@ -1,0 +1,473 @@
+/*
+Theme Name: War3VN by Sorrow
+Author: Sorrow
+Description: War3VN project - The first and united Warcraft community in Viet Nam
+Text Domain: war3vn
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+Current Version: 1.0.0 (27/12/18)
+
+*/
+@media (max-width:576px){
+.container.p-0 .leaf-border {
+	border-width: 17.5px;
+}
+.container.p-0 .leaf-corner {
+	margin-top: -17.5px;
+	margin-right: -17.5px;
+	margin-left: -17.5px;
+	margin-bottom: -17.5px;
+	border-width: 45px;
+}
+.news-section {
+	margin-top: -20px;
+	margin-right: -20px;
+	margin-left: -20px;
+	margin-bottom: -20px;
+}
+div.post-head-info {
+	left: 10px;
+	}
+}
+body {
+	background-image: url(../war3vn/assets/img/Box-leather-blue.jpg);
+	background-size: contain;
+	background-repeat: repeat;
+}
+html body {
+	max-width: 100%;
+	overflow-x: hidden;	
+}
+img {
+	object-fit: cover;
+}
+.head-bg {
+	background-position: center -180px;
+	background-image: url(../war3vn/assets/img/BattleCry-Panoramic.jpg);
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.head-cover-post {
+	height: 666px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.container.head-section {
+	max-width: 2500px;
+	position: relative;
+}
+.featured-post-thumb img  {
+	height: 100%;
+	width: 100%;
+}
+.top-fap-thumb img  {
+	height: 100%;
+	width: 100%;
+}
+.leaf-border {
+	border: 35px solid rgba(0,0,0,0.01);
+	border-image: url(../war3vn/assets/img/border.gif) 70 repeat;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-clip: padding-box;
+}
+.featured-post-2-thumb {
+	height: 100px;
+}
+.side-fap-thumb {
+	height: 100px;
+}
+.featured-post-2-thumb img {
+	width: 100%;
+	height: 100%;
+}
+.leaf-corner   {
+	margin-top: -35px;
+	margin-right: -35px;
+	margin-left: -35px;
+	margin-bottom: -35px;
+	border: 90px solid;
+	border-image: url(../war3vn/assets/img/corner.gif) 180 repeat;
+}
+.nav-logo   {
+	background-image: url(../war3vn/assets/img/warcraft-3-reign-of-chaos.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	min-height: 70px;
+	background-size: contain;
+	background-position: 0% center;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+p {
+	color: rgba(255,255,255,1.00);
+}
+div .bg-drop-down   {
+	background-color: rgba(253,253,253,0.65);
+}
+.divider {
+	background-image: url(../war3vn/assets/img/BP7IWL5GN6QZ1541005875802.png);
+	background-size: contain;
+	padding-top: 15px;
+}
+div {
+	font-family: 'SVN-Book Antiqua', serif;
+}
+body a   {
+	color: rgba(255,255,255,1.00);
+}
+body a:hover {
+	color: rgba(255,158,0,1.00);
+	text-decoration: none;
+}
+.news-col-section ul  {
+	padding-left: 0px;
+	text-align: left;
+	list-style-type: none;
+}
+.news-col-section ul li::before  {
+	content: "";
+	display: inline-block;
+	background: url(../war3vn/assets/img/D69AZ9CNT14I1541005853352.png) no-repeat top center;
+	background-size: contain;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-left: -25px;
+	margin-top: 3px;
+}
+.news-col-section li  {
+	padding-bottom: 5px;
+	position: relative;
+}
+.featured-post-headline h2   {
+	font-size: 20px;
+	margin-top: 15px;
+	color: rgba(255,255,255,1.00);
+	text-transform: uppercase;
+}
+.fap-post-headline h2 {
+	color: rgba(255,255,255,1.00);
+	font-size: 20px;
+}
+
+.featured-post-2-headline h3 {
+	color: rgba(255,255,255,1.00);
+	font-size: 16px;
+	margin-top: 5px;
+}
+.featured-post-des {
+	font-size: 16px;
+	font-style: italic;
+}
+nav a {
+	font-family: 'Spectral SC', serif;
+}
+.top-left-banner {
+	margin-bottom: 15px;
+}
+.featured-post-thumb {
+	height: 250px;
+}
+.bot-left-banner {
+	height: 350px;
+}
+.bot-left-banner img {
+	width: 100%;
+	height: 100%;
+}
+.featured-post-3-thumb img {
+	width: 100%;
+	height: 100%;
+}
+.featured-post-3-headline {
+	text-transform: uppercase;
+	color: rgba(255,255,255,1.00);
+}
+.news-divider {
+	background-image: url(../war3vn/assets/img/IW9HFSD9VO2K1541005875846.png);
+	background-size: 59% auto;
+	padding-top: 70px;
+	background-repeat: no-repeat;
+	background-position: 50% 58%;
+}
+@media (max-width: 990px){
+.featured-post-section-2 {
+	display: inline-flex;
+	margin-bottom: 15px;
+}
+.featured-post-2-headline {
+	margin-left: 15px;
+	max-width: 45%;
+}
+.featured-post-2-thumb {
+	width: 200px;
+}
+.side-fap-thumb {
+	width: 200px;
+}
+
+.bot-left-banner {
+	display: none;
+}
+.news-col-section  {
+	padding-left: 20px;
+}
+.navbar-brand.nav-logo {
+	max-width: 75px;
+}
+.form-inline.my-2.my-md-2 {
+	width: 200px;
+	height: 30px;
+}
+}
+.gallery {
+}
+@media (min-width: 768px){
+.gallery-thumb   {
+	height: 230px;
+}
+}
+.video-youtube {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+  .video-youtube:before {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "\f144";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 100px;
+    color: #fff;
+    opacity: .8;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  }
+  .video-youtube:hover:before {
+    color: #eee;
+  }
+.video-youtube-side {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+  .video-youtube-side:before {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "\f144";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 50px;
+    color: #fff;
+    opacity: .8;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  }
+  .video-youtube-side:hover:before {
+    color: #eee;	  
+  }
+.col-md-6.side-video {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.footer {
+	text-align: center;
+	font-size: xx-small;
+}
+.logo-footer {
+	background-image: url(../war3vn/assets/img/warcraft-3-reign-of-chaos.png);
+	background-position: center 0%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.video-youtube-thumb:hover, .fp-img:hover, .fp2-img:hover, .fp3-img:hover, .gallery-thumb:hover {
+	border: 1px solid rgba(255,150,0,0.67);
+}
+.gallery-thumb, .fp-img, .fp2-img, .fp3-img, .video-youtube-thumb{
+	border: 1px solid rgba(54,32,0,1.00);
+}
+.post-head-info {
+	position: absolute;
+    top: 250px;
+    left: 50px;
+}
+.post-title {
+	color: rgba(255,182,3,1.00);
+	font-size: 48px;
+	text-shadow: 0px 0px 10px #ff2500;
+}
+.post-description {
+	width: 80%;
+    font-size: 24px;
+    text-shadow: 0px 0px 10px #00abfd;
+}
+.post-info a {
+	font-size: small;
+	text-align: left;
+	color: rgba(109,109,109,1.00);
+}
+.post-author:before {
+	content: "\f007";
+	font-family: 'Font Awesome 5 Free';
+	position: relative;
+	margin-right: 5px;
+}
+.post-date:before {
+	content: "\f073";
+	font-family: 'Font Awesome 5 Free';
+	position: relative;
+	margin-right: 5px;
+}
+.post-category:before {
+	content: "\f07b";
+	font-family: 'Font Awesome 5 Free';
+	position: relative;
+	margin-right: 5px;
+}
+.post-leave-cmt:before {
+	content: "\f075";
+	font-family: 'Font Awesome 5 Free';
+	position: relative;
+	margin-right: 5px;
+}
+.post-body {
+	color: rgba(255,255,255,1.00);
+}
+@media (max-width:768px){
+.head-bg {
+	height: 300px;
+	background-size: cover;
+	background-position: center bottom;
+}
+.head-cover-post {
+	background-position: center bottom;
+	background-size: cover;
+	height: 300px;
+}
+.post-info a {
+	display: block;
+}
+.archive-banner.col-3 {
+	display: none;
+}
+.d-flex.mb-3 .col-8 .read-more {
+	display: none;
+}
+.post-description {
+	display: none;	
+	}
+.post-head-info {	
+    top: 100px;
+}
+.post-title {
+	font-size: 32px;
+	}
+}
+.cmt-name {
+	color: rgba(0,179,255,1.00);
+}
+.cmt-stamp {
+	font-size: small;
+	font-style: italic;
+}.comment {
+	color: rgba(255,255,255,1.00);
+}
+.tag {
+	color: rgba(255,255,255,1.00);
+}
+.comment-reply-link {
+	color: #28a745;	
+}
+.comment-reply-link:hover {
+	color:white;
+}
+p.has-drop-cap:not(:focus)::first-letter {
+	color: rgba(255,182,3,1.00);
+}
+.side-fap-headline {
+	font-size: 20px;
+}
+.pagi-link.page-link {
+	background-color: rgba(0,0,0,0.00);
+    border-color: #007bff;	
+}
+.pagi-link.page-link:hover {
+	background-color: #007bff;
+    border-color: #007bff;
+	color: white;
+}
+.page-item.disabled .pagi-link.page-link {
+	background-color: rgba(0,0,0,0.00);
+    border-color: #007bff;	
+}
+li.page-item.hidden {
+	display: none;
+}
+.fap-post-des {
+	overflow: hidden;
+	height: 100px;
+	font-style: italic;
+	color: rgba(255,255,255,1.00);
+}
+
+@media (max-width:400px){
+.fap-post-des {
+	display: none;
+}
+
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #16181b;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
