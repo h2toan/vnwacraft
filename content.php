@@ -30,7 +30,7 @@
 		$post_list = get_posts ( $arg );
 		?>
 		<div class="row justify-content-center">
-			<div class="col-md-1">
+			<div class="col-md-2 mb-3">
 				<a <?php echo is_a( $prev_post, 'WP_Post' ) ? 'href="'.get_permalink( $prev_post->ID ).'"' : 'href="#" onClick="return false;"'; ?> class="btn btn-success d-block mx-auto"><?php echo is_a( $prev_post, 'WP_Post' ) ? '<i class="fas fa-backward"></i>' : '<i class="fas fa-lock"></i>';?></a>		
 			</div>
 			<div class="col-md-6 form-group">				
@@ -47,7 +47,7 @@
 						?>
 				</select>
 			</div>
-			<div class="col-md-1">
+			<div class="col-md-2">
 				<a <?php echo is_a( $next_post, 'WP_Post' ) ? 'href="'.get_permalink( $next_post->ID ).'"' : 'href="#" onClick="return false;"'; ?> class="btn btn-success d-block mx-auto"><?php echo is_a( $next_post, 'WP_Post' ) ? '<i class="fas fa-forward"></i>' : '<i class="fas fa-lock"></i>';?></a>		
 			</div>
 		</div>
