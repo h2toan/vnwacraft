@@ -15,6 +15,44 @@
   <div class="leaf-border">
     <div class="leaf-corner">
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	  <!-- Phần pagination -->
+		<?php
+		$next_post = get_adjacent_post(true,'',false,'category');
+		$prev_post = get_adjacent_post(true,'',true,'category');
+		$categories = get_the_category();
+		if ( ! empty( $categories ) ) {
+			$cat_name = $categories[0]->name;   
+		}
+		$arg = array (
+			'category_name'    => $cat_name,
+			'posts_per_page'   => -1,
+			);
+		$post_list = get_posts ( $arg );
+		?>
+		<div class="row justify-content-center">
+			<div class="col-md-1">
+				<a <?php echo is_a( $prev_post, 'WP_Post' ) ? 'href="'.get_permalink( $prev_post->ID ).'"' : 'href="#" onClick="return false;"'; ?> class="btn btn-success d-block mx-auto"><?php echo is_a( $prev_post, 'WP_Post' ) ? '<i class="fas fa-backward"></i>' : '<i class="fas fa-lock"></i>';?></a>		
+			</div>
+			<div class="col-md-6 form-group">				
+				<select class="form-control" id="post-select" onchange="location = this.value;">					
+						<?php
+						foreach ( $post_list as $post_item ) {
+							if ($post_item->ID == $post->ID) {
+								echo '<option value="'.get_permalink( $post_item->ID ).'" selected>'.$post_item->post_title.'</option>';
+							}
+							else {
+								echo '<option value="'.get_permalink( $post_item->ID ).'">'.$post_item->post_title.'</option>';
+							}
+						}
+						?>
+				</select>
+			</div>
+			<div class="col-md-1">
+				<a <?php echo is_a( $next_post, 'WP_Post' ) ? 'href="'.get_permalink( $next_post->ID ).'"' : 'href="#" onClick="return false;"'; ?> class="btn btn-success d-block mx-auto"><?php echo is_a( $next_post, 'WP_Post' ) ? '<i class="fas fa-forward"></i>' : '<i class="fas fa-lock"></i>';?></a>		
+			</div>
+		</div>
+		<div class="news-divider"></div>
+		<!-- Phần nội dung -->
         <div class="row">
           <div class="post-content col">		
             <div class="post-body">
