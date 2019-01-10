@@ -121,7 +121,7 @@ get_header(); ?>
 		        <!-- Button trang +2. Nếu ở trang áp cuối thì hidden -->
 		        <li class="page-item <?php $next = $paged + 2; if ($next > $max_page) {echo hidden;} ?>"><a class="pagi-link page-link" href="<?php echo get_category_link($wp_query->query_vars[cat]).'page/'.$next; ?>"><?php echo $next;?></a></li>
 		        <!-- Button trang cuối. Nếu ở trang cuối thì hidden -->
-		        <li class="page-item <?php if ($max_page == $paged) {echo disabled;} ?>"><a class="pagi-link page-link" href="<?php echo get_category_link($wp_query->query_vars[cat]).'page/'.$max_page; ?>">Trang cuối</a></li>
+		        <li class="page-item <?php if ($max_page == $paged or $max_page < 0) {echo disabled;} ?>"><a class="pagi-link page-link" href="<?php echo get_category_link($wp_query->query_vars[cat]).'page/'.$max_page; ?>">Trang cuối</a></li>
 	          </ul>
 		      </div>
 			  <!-- Phần banner cột phải (nếu có) -->
